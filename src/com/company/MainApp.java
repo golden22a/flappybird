@@ -25,8 +25,8 @@ public class MainApp extends processing.core.PApplet {
     }
     public void setup(){
 
-        background(255);
-        stroke(200);
+        fill(0);
+        textSize(40);
     }
     public void draw(){
        if(!gameStarted){
@@ -50,7 +50,7 @@ public class MainApp extends processing.core.PApplet {
            imageMode(CENTER);
            image(wallImg,wall1.getX(),wall1.getY() - (wallImg.height/2+100));
            image(wallImg,wall1.getX(),wall1.getY() + (wallImg.height/2+100));
-           
+
            image(wallImg,wall2.getX(),wall2.getY() - (wallImg.height/2+100));
            image(wallImg,wall2.getX(),wall2.getY() + (wallImg.height/2+100));
            if(wall1.getX() < 0) {
@@ -61,7 +61,15 @@ public class MainApp extends processing.core.PApplet {
            }
            wall1.setX(wall1.getX()-6);
            wall2.setX(wall2.getX()-6);
+           if(wall1.getX() == width/2 || wall2.getX() == width/2) highScore = max(++score, highScore);
+           if(bird.getY()>height || bird.getY()<0
+                   || ((abs(width/2-wall1.getX()))<25
+                   && (abs(bird.getY()-wall1.getY())>100 ) ) || ((abs(width/2-wall2.getX()))<25
+                   && (abs(bird.getY()-wall2.getY())>100 ) )){
+               gameStarted = false;
+           }
 
+           text(""+score, width/2-15, 700);
 
        }
 
@@ -70,10 +78,11 @@ public class MainApp extends processing.core.PApplet {
 
         if(!gameStarted) {
             gameStarted = true;
+            gravity = 0;
             score = 0;
             wall1 = new Point(600,height/2);
             wall2 = new Point(900,600);
-            bird = new Point(0,height/2);
+            bird = new Point(0,width/2);
         }
         else {
             gravity = -15;
