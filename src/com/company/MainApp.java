@@ -10,6 +10,10 @@ public class MainApp extends processing.core.PApplet {
     int highScore = 0;
     int score ;
     int backImgX = 0;
+    int gravity = 0;
+    int birdY = 0;
+    Point wall1 = new Point(0,0);
+    Point wall2 = new Point(0,0);
     public static void main(String[] args) {
         // full path to class
         PApplet.main("com.company.MainApp",args);
@@ -34,7 +38,9 @@ public class MainApp extends processing.core.PApplet {
            imageMode(CORNER);
            image(backImg, backImgX, 0);
            image(backImg, backImgX+backImg.width, 0);
-           image(birdImg, width/2, 0,100,100);
+           image(birdImg, width/2, birdY,100,100);
+           gravity += 1;
+           birdY += gravity;
            backImgX -= 6;
        }
 
@@ -45,6 +51,9 @@ public class MainApp extends processing.core.PApplet {
             gameStarted = true;
             score = 0;
             System.out.println("heeey");
+        }
+        else {
+            gravity = -15;
         }
     }
 }
