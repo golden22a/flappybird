@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69a8bbff-9052-47f8-a3a6-35ac96147af8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MainApp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,13 +32,22 @@
       <file leaf-file-name="MainApp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/MainApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+            <state relative-caret-position="288">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
               <folding>
-                <element signature="e#153#154#0" expanded="true" />
-                <element signature="e#194#195#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#250#251#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Okay.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Okay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,6 +69,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Okay.java" />
         <option value="$PROJECT_DIR$/src/com/company/MainApp.java" />
       </list>
     </option>
@@ -114,6 +122,14 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="process" type="b2602c69:ProjectViewProjectNode" />
+              <item name="process" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -141,13 +157,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Okay">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.MainApp" />
       <module name="process" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <configuration name="Okay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Okay" />
+      <module name="process" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -164,8 +190,13 @@
       <envs />
       <method />
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Okay" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Okay" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -180,12 +211,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525234198000</updated>
-      <workItem from="1525234201662" duration="1591000" />
+      <workItem from="1525234201662" duration="7965000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1591000" />
+    <option name="totallyTimeSpent" value="7965000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="3840" height="2046" extended-state="6" />
@@ -220,6 +251,36 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32994923" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32994923" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -241,15 +302,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Okay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/MainApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        <state relative-caret-position="288">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding>
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
