@@ -1,11 +1,9 @@
 package com.company;
-
 import processing.core.PApplet;
 
-public class Main  extends processing.core.PApplet{
-
+public class MainApp extends processing.core.PApplet {
     public static void main(String[] args) {
-        PApplet.main("Main",args);
+        PApplet.main("com.company.MainApp",args);
     }
     public void setup(){
         background(255);
