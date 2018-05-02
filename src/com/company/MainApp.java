@@ -42,6 +42,9 @@ public class MainApp extends processing.core.PApplet {
            gravity += 1;
            birdY += gravity;
            backImgX -= 6;
+          
+           image(wallImg,wall1.getX(),wall1.getY() - (wallImg.height/2+100));
+           image(wallImg,wall1.getX(),wall2.getY() + (wallImg.height/2+100));
        }
 
     }
