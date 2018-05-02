@@ -9,6 +9,7 @@ public class MainApp extends processing.core.PApplet {
     boolean gameStarted = false;
     int highScore = 0;
     int score ;
+    int backImgX = 0;
     public static void main(String[] args) {
         // full path to class
         PApplet.main("com.company.MainApp",args);
@@ -31,8 +32,9 @@ public class MainApp extends processing.core.PApplet {
 
        }else {
            imageMode(CORNER);
-           image(backImg, 0, 0);
-
+           image(backImg, backImgX, 0);
+           image(backImg, backImgX+backImg.width, 0);
+           backImgX -= 6;
        }
 
     }
