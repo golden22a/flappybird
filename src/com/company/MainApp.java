@@ -34,6 +34,7 @@ public class MainApp extends processing.core.PApplet {
            imageMode(CORNER);
            image(backImg, backImgX, 0);
            image(backImg, backImgX+backImg.width, 0);
+           image(birdImg, width/2, 0,100,100);
            backImgX -= 6;
        }
 
