@@ -1,7 +1,6 @@
 package com.company;
 import processing.core.PApplet;
 import processing.core.PImage;
-
 public class MainApp extends processing.core.PApplet {
     PImage backImg =loadImage("http://i.imgur.com/cXaR0vS.png");
     PImage birdImg =loadImage("https://i.imgur.com/MCgU6pJ.png");
@@ -9,6 +8,7 @@ public class MainApp extends processing.core.PApplet {
     PImage startImg=loadImage("https://i.imgur.com/88nmGjE.png");
     boolean gameStarted = false;
     int highScore = 0;
+    int score ;
     public static void main(String[] args) {
         // full path to class
         PApplet.main("com.company.MainApp",args);
@@ -34,5 +34,14 @@ public class MainApp extends processing.core.PApplet {
 
        }
 
+    }
+    public void mousePressed() {
+
+        if(!gameStarted) {
+            gameStarted = true;
+            score = 0;
+            System.out.println("heeey");
+
+        }
     }
 }
