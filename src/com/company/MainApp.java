@@ -14,7 +14,7 @@ public class MainApp extends processing.core.PApplet {
         PApplet.main("com.company.MainApp",args);
     }
     public void settings(){
-        size(1920, 1080);
+        size(600, 865);
 
     }
     public void setup(){
