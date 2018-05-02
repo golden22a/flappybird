@@ -8,12 +8,13 @@ public class MainApp extends processing.core.PApplet {
     PImage startImg=loadImage("https://i.imgur.com/88nmGjE.png");
     boolean gameStarted = false;
     int highScore = 0;
-    int score ;
+    int score = 0 ;
     int backImgX = 0;
     int gravity = 0;
     int birdY = 0;
-    Point wall1 = new Point(0,0);
-    Point wall2 = new Point(0,0);
+    Point bird;
+    Point wall1 ;
+    Point wall2 ;
     public static void main(String[] args) {
         // full path to class
         PApplet.main("com.company.MainApp",args);
@@ -35,16 +36,33 @@ public class MainApp extends processing.core.PApplet {
            text("High Score: "+highScore, 50, width);
 
        }else {
+
            imageMode(CORNER);
            image(backImg, backImgX, 0);
            image(backImg, backImgX+backImg.width, 0);
-           image(birdImg, width/2, birdY,100,100);
-           gravity += 1;
-           birdY += gravity;
+           image(birdImg, width/2, bird.getY(),100,100);
            backImgX -= 6;
-          
+           gravity += 1;
+           if(backImgX == -1800){
+               backImgX = 0;
+           }
+           bird.setY(bird.getY()+gravity);
+           imageMode(CENTER);
            image(wallImg,wall1.getX(),wall1.getY() - (wallImg.height/2+100));
-           image(wallImg,wall1.getX(),wall2.getY() + (wallImg.height/2+100));
+           image(wallImg,wall1.getX(),wall1.getY() + (wallImg.height/2+100));
+           
+           image(wallImg,wall2.getX(),wall2.getY() - (wallImg.height/2+100));
+           image(wallImg,wall2.getX(),wall2.getY() + (wallImg.height/2+100));
+           if(wall1.getX() < 0) {
+               wall1.setY((int)random(200,height-200));
+               wall2.setY((int)random(200,height-200));
+               wall1.setX(width);
+               wall1.setX(width);
+           }
+           wall1.setX(wall1.getX()-6);
+           wall2.setX(wall2.getX()-6);
+
+
        }
 
     }
@@ -53,7 +71,9 @@ public class MainApp extends processing.core.PApplet {
         if(!gameStarted) {
             gameStarted = true;
             score = 0;
-            System.out.println("heeey");
+            wall1 = new Point(600,height/2);
+            wall2 = new Point(900,600);
+            bird = new Point(0,height/2);
         }
         else {
             gravity = -15;
