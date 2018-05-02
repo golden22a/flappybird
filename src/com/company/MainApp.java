@@ -30,7 +30,8 @@ public class MainApp extends processing.core.PApplet {
            text("High Score: "+highScore, 50, width);
 
        }else {
-
+           imageMode(CORNER);
+           image(backImg, 0, 0);
 
        }
 
@@ -41,7 +42,6 @@ public class MainApp extends processing.core.PApplet {
             gameStarted = true;
             score = 0;
             System.out.println("heeey");
-
         }
     }
 }
