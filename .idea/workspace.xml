@@ -32,20 +32,8 @@
       <file leaf-file-name="MainApp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/MainApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Okay.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Okay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="324">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -157,7 +145,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Okay">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.MainApp" />
       <module name="process" />
@@ -196,8 +184,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Okay" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Okay" />
       </list>
     </recent_temporary>
   </component>
@@ -211,12 +199,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525234198000</updated>
-      <workItem from="1525234201662" duration="7965000" />
+      <workItem from="1525234201662" duration="8146000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7965000" />
+    <option name="totallyTimeSpent" value="8146000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="3840" height="2046" extended-state="6" />
@@ -231,12 +219,12 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32994923" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32994923" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -304,8 +292,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Okay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="180">
+          <caret line="5" lean-forward="true" selection-end-line="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -314,8 +302,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/MainApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        <state relative-caret-position="324">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
